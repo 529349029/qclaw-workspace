@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "skills": {
+    "github": {
+      "name": "Github",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=github",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "self-improving-agent": {
+      "name": "self-improving-agent",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=self-improving-agent",
+      "source": "skillhub",
+      "version": "1.0.11"
+    },
+    "browser": {
+      "name": "Browser",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=browser",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "skill-vetter": {
+      "name": "Skill Vetter",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=skill-vetter",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "tencent-news": {
+      "name": "腾讯新闻",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=tencent-news",
+      "source": "skillhub",
+      "version": "1.0.8"
+    },
+    "warren-buffett-investment": {
+      "name": "沃伦·巴菲特投资逻辑",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=warren-buffett-investment",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "buffett-analysis": {
+      "name": "Buffett Analysis",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=buffett-analysis",
+      "source": "skillhub",
+      "version": "0.1.0"
+    },
+    "zhinangtuan2-buffett": {
+      "name": "智囊团2号Ai巴菲特",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=zhinangtuan2-buffett",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "stock-index": {
+      "name": "指数通(stock-index-expert)",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=stock-index",
+      "source": "skillhub",
+      "version": "1.0.0"
+    }
+  }
+}

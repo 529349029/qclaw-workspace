@@ -1,0 +1,28 @@
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 新闻抓取临时文件（清理）
+_*.xml
+_*.txt
+_*.ps1
+_body*.json
+_result*.json
+_search*.py
+_simple*.py
+search.py
+export_skills.py
+*.xlsx
+skills_list.json
+
+# 编译缓存
+.compile-cache/
+scripts/
+.learnings/
+
+# OpenClaw 内部配置（不公开）
+.openclaw/
+body.json
+
+# Bootstrap（一次性文件）
+BOOTSTRAP.md
