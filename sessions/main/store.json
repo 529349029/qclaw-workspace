@@ -1,0 +1,25 @@
+{
+  "id": "main",
+  "name": "会话摘要",
+  "status": "active",
+  "createdAt": "2026-04-16T03:31:04.140Z",
+  "updatedAt": "2026-04-19T08:53:27.181Z",
+  "agents": [
+    {
+      "id": "agent_5wkaimv6",
+      "name": "Main Agent",
+      "role": "assistant",
+      "status": "idle",
+      "createdAt": "2026-04-16T03:31:04.140Z",
+      "model": "unknown",
+      "systemPrompt": ""
+    }
+  ],
+  "summary": {
+    "id": "summary_wtel95uw",
+    "title": "会话摘要",
+    "createdAt": "2026-04-16T03:31:04.140Z",
+    "file": "summary_wtel95uw.md"
+  },
+  "lastMessageCount": 63
+}
