@@ -1,4 +1,13 @@
 - **2026-04-14**：记忆系统启用
+- **2026-04-19**：设置每日 Git 自动备份到 GitHub，换电脑可无缝恢复
+
+## Git 备份（每日自动）
+
+- **仓库地址：** https://github.com/529349029/qclaw-workspace
+- **备份时间：** 每天 21:00（Asia/Shanghai）
+- **备份内容：** MEMORY.md、memory/、sessions/、TOOLS.md 等
+- **Cron 任务 ID：** 2d032b85-c7c1-446c-a7e9-66dc3b4e4bf0
+- **恢复方法：** 新电脑 clone 后覆盖 .qclaw/workspace 目录即可
 
 ## 当前项目与关注
 
