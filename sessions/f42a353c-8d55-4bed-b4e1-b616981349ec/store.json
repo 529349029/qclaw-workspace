@@ -1,0 +1,25 @@
+{
+  "id": "f42a353c-8d55-4bed-b4e1-b616981349ec",
+  "name": "每日英语口语",
+  "status": "active",
+  "createdAt": "2026-04-20T05:54:15.854Z",
+  "updatedAt": "2026-04-20T05:54:15.854Z",
+  "agents": [
+    {
+      "id": "agent_1gp0j83i",
+      "name": "Main Agent",
+      "role": "assistant",
+      "status": "idle",
+      "createdAt": "2026-04-20T05:54:15.854Z",
+      "model": "unknown",
+      "systemPrompt": ""
+    }
+  ],
+  "summary": {
+    "id": "summary_q5n4yu0b",
+    "title": "每日英语口语",
+    "createdAt": "2026-04-20T05:54:15.854Z",
+    "file": "summary_q5n4yu0b.md"
+  },
+  "lastMessageCount": 4
+}

@@ -32,6 +32,7 @@
 
 - buffett-analysis 脚本路径：C:\Users\Administrator\.qclaw\workspace\skills\buffett-analysis\scripts\fetch_company_data.py，依赖 mcporter 工具不可用，改用 curl 直接调用东方财富 API 绕过
 - 阿尔法工坊前端：https://finstep-ai.github.io/alpha-factor-lab/fundamental.html
+- PowerShell 中 Invoke-WebRequest 的 -L 参数不受支持（curl 别名问题），如需处理重定向建议直接使用 curl.exe
 
 ## 用户身份与偏好
 
