@@ -1,0 +1,25 @@
+{
+  "id": "2d032b85-c7c1-446c-a7e9-66dc3b4e4bf0",
+  "name": "开发环境配置",
+  "status": "active",
+  "createdAt": "2026-04-22T10:09:00.511Z",
+  "updatedAt": "2026-04-22T10:09:00.511Z",
+  "agents": [
+    {
+      "id": "agent_oezvr59v",
+      "name": "Main Agent",
+      "role": "assistant",
+      "status": "idle",
+      "createdAt": "2026-04-22T10:09:00.511Z",
+      "model": "unknown",
+      "systemPrompt": ""
+    }
+  ],
+  "summary": {
+    "id": "summary_fgp7v75f",
+    "title": "开发环境配置",
+    "createdAt": "2026-04-22T10:09:00.511Z",
+    "file": "summary_fgp7v75f.md"
+  },
+  "lastMessageCount": 130
+}

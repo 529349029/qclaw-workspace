@@ -19,16 +19,30 @@
 ## 软件下载偏好
 
 - **优先下载绿色免安装版（Portable）**，不安装软件到系统目录
+- 环境变量统一配置到 **Machine 级**（系统级），确保所有进程都能读取
 - 避免：腾讯电脑管家软件市场、360软件管家等（安装包可能有捆绑）
 - 推荐：GitHub开源项目、绿色软件站（多多软件站、ity果园等）
 - 便携版优点：无残留、换电脑不丢数据、可放U盘随身带
 
 ## 技术规范偏好
 
+- **安装软件/配置环境必须优先使用国内镜像**（外网速度太慢），详见 TOOLS.md 中的镜像配置
 - 访问外网需走 Clash 代理：http://127.0.0.1:7890（curl -x）
 - curl 访问东方财富网 API（含 emweb.securities.eastmoney.com、push2.eastmoney.com）需加代理参数
 
+## 已安装软件路径
+
+| 软件 | 版本 | 路径 |
+|------|------|------|
+| Solana CLI | 1.18.26 | `C:\Program Files\Solana\solana-release\bin\` |
+| Rust | 1.95.0 | `$env:USERPROFILE\.cargo\bin\` |
+| Anchor CLI | 1.0.1 | `$env:USERPROFILE\.cargo\bin\` |
+| avm | 跳过 | 旧包编译需 OpenSSL 1.x，固定版本不需要 |
+| VS Build Tools | 14.44 | `C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\` |
+
 ## 经验与决策
+
+- **安装软件前务必先检查是否已安装**（搜索 Program Files、用户目录等），避免重复安装浪费时间
 
 - buffett-analysis 脚本路径：C:\Users\Administrator\.qclaw\workspace\skills\buffett-analysis\scripts\fetch_company_data.py，依赖 mcporter 工具不可用，改用 curl 直接调用东方财富 API 绕过
 - 阿尔法工坊前端：https://finstep-ai.github.io/alpha-factor-lab/fundamental.html
