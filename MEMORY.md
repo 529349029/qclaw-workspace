@@ -15,10 +15,12 @@
 - 关注巴菲特分析框架下的贵州茅台（600519.SH）投资分析
 - 使用 buffett-analysis 技能进行分析，数据来源：东方财富网 API
 - 正在学习 Solidity，目标是提高 Solidity 水平
+- **Solana/Anchor 开发环境配置放弃**：cargo-build-sbf v4.0.0 正则 bug（`rustc 1.75.0-dev` 的 `-dev` 后缀不匹配 `rustc X.Y.Z` 正则导致 unwrap panic），等官方修复再考虑
 
 ## 软件下载偏好
 
 - **优先下载绿色免安装版（Portable）**，不安装软件到系统目录
+- **安装软件优先选择最新稳定版（latest stable）**
 - 环境变量统一配置到 **Machine 级**（系统级），确保所有进程都能读取
 - 避免：腾讯电脑管家软件市场、360软件管家等（安装包可能有捆绑）
 - 推荐：GitHub开源项目、绿色软件站（多多软件站、ity果园等）
@@ -43,6 +45,8 @@
 ## 经验与决策
 
 - **安装软件前务必先检查是否已安装**（搜索 Program Files、用户目录等），避免重复安装浪费时间
+
+- **配置环境变量前先检查是否已存在**：用 `[Environment]::GetEnvironmentVariable("Path", "User")` 检查，避免重复添加
 
 - buffett-analysis 脚本路径：C:\Users\Administrator\.qclaw\workspace\skills\buffett-analysis\scripts\fetch_company_data.py，依赖 mcporter 工具不可用，改用 curl 直接调用东方财富 API 绕过
 - 阿尔法工坊前端：https://finstep-ai.github.io/alpha-factor-lab/fundamental.html
