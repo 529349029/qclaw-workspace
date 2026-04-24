@@ -14,8 +14,9 @@
 
 - 关注巴菲特分析框架下的贵州茅台（600519.SH）投资分析
 - 使用 buffett-analysis 技能进行分析，数据来源：东方财富网 API
-- 正在学习 Solidity，目标是提高 Solidity 水平
+- 正在学习 Solidity，目标是做区块链白帽子安全审计，通过 Bug Bounty 获得赏金
 - **Solana/Anchor 开发环境配置放弃**：cargo-build-sbf v4.0.0 正则 bug（`rustc 1.75.0-dev` 的 `-dev` 后缀不匹配 `rustc X.Y.Z` 正则导致 unwrap panic），等官方修复再考虑
+- 区块链白帽子方向：寻找合约漏洞，通过 Bug Bounty 获得赏金；学习路线：Solidity 基础 → Ethernaut/CTF 练习 → Foundry 工具 → Code4rena 参赛 → Immunefi 提交真实漏洞
 
 ## 软件下载偏好
 

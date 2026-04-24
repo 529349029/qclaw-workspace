@@ -1,9 +1,9 @@
 {
   "id": "session-1774436839894-3jb63x",
-  "name": "工具安装与日志查询",
+  "name": "三仓库统一推送",
   "status": "active",
   "createdAt": "2026-04-22T10:10:18.086Z",
-  "updatedAt": "2026-04-23T11:13:50.521Z",
+  "updatedAt": "2026-04-24T19:28:43.020Z",
   "agents": [
     {
       "id": "agent_u6fnr6t8",
@@ -17,9 +17,9 @@
   ],
   "summary": {
     "id": "summary_smhahmje",
-    "title": "工具安装与日志查询",
+    "title": "三仓库统一推送",
     "createdAt": "2026-04-22T10:10:18.087Z",
     "file": "summary_smhahmje.md"
   },
-  "lastMessageCount": 175
+  "lastMessageCount": 31
 }
