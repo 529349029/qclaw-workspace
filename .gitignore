@@ -26,3 +26,9 @@ body.json
 
 # Bootstrap（一次性文件）
 BOOTSTRAP.md
+
+chat-export/
+_export_chat.py
+anchor-install-complete_2026-04-22.md
+solana-env-complete_2026-04-22.md
+task-summary_*.md
