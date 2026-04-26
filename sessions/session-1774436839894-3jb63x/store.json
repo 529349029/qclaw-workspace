@@ -1,9 +1,9 @@
 {
   "id": "session-1774436839894-3jb63x",
-  "name": "三仓库手动推送",
+  "name": "Token泄露修复推送",
   "status": "active",
   "createdAt": "2026-04-22T10:10:18.086Z",
-  "updatedAt": "2026-04-24T20:57:33.090Z",
+  "updatedAt": "2026-04-26T09:29:49.710Z",
   "agents": [
     {
       "id": "agent_u6fnr6t8",
@@ -17,9 +17,9 @@
   ],
   "summary": {
     "id": "summary_smhahmje",
-    "title": "三仓库手动推送",
+    "title": "Token泄露修复推送",
     "createdAt": "2026-04-22T10:10:18.087Z",
     "file": "summary_smhahmje.md"
   },
-  "lastMessageCount": 30
+  "lastMessageCount": 34
 }
