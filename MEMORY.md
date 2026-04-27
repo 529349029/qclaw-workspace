@@ -52,6 +52,8 @@
 - buffett-analysis 脚本路径：C:\Users\Administrator\.qclaw\workspace\skills\buffett-analysis\scripts\fetch_company_data.py，依赖 mcporter 工具不可用，改用 curl 直接调用东方财富 API 绕过
 - 阿尔法工坊前端：https://finstep-ai.github.io/alpha-factor-lab/fundamental.html
 - PowerShell 中 Invoke-WebRequest 的 -L 参数不受支持（curl 别名问题），如需处理重定向建议直接使用 curl.exe
+- GitHub Push Protection 规则：chat-export/、对话导出、Personal Access Token 等含敏感信息的内容永远不应提交到 git；.gitignore 只能排除未跟踪文件，已跟踪文件需先 git rm --cached
+- 用户说"推送一下"= 同时推送三个仓库：QClaw 工作区（GitHub）、D:\busd（Gitee + GitHub）、D:\usdt（Gitee）
 
 ## 用户身份与偏好
 
