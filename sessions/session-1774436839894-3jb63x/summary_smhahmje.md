@@ -1,16 +1,14 @@
 ## 任务背景
-QClaw工作区推送GitHub时被Push Protection拦截，chat-export/目录含GitHub Personal Access Token。
+用户要求恢复原始git-sync-multiv.bat的pull+push双仓库行为，新建文件git-sync-both.bat运行。
 ## 执行过程
-1. git rm --cached移除chat-export/跟踪
-2. 追加chat-export/等到.gitignore
-3. git reset --soft c68a71b回退到干净commit
-4. 只提交.gitignore/memory/sessions等安全文件
-5. 强制推送GitHub成功
-6. 推送D:\busd和D:\usdt
+1. 创建D:\busd\git-sync-both.bat，pull和push都走代理
+2. 测试发现Gitee走代理失败（Clash仅代理GitHub流量）
+3. 修正：Gitee直连，GitHub pull+push均走代理127.0.0.1:7890
+4. 再次测试，Gitee+GitHub均推送成功
 ## 关键结果
-- QClaw工作区强制推送成功 c68a71b→a703b7f
-- D:\busd→Gitee+GitHub commit 9161c97 ✅
-- D:\usdt→Gitee temp-branch commit 877c02c ✅
-- chat-export/永久加入.gitignore
+- Gitee(myfork3)：直连pull+push ✅
+- GitHub(origin)：代理pull+push ✅
+- 新文件D:\busd\git-sync-both.bat已创建并测试通过
+- 记录至memory/2026-04-28.md
 ## 结论建议
-chat-export/含对话记录可能有token，永远不应提交git。已记录至memory/2026-04-26.md。
+脚本已稳定运行。用户现有三个脚本：git-sync-both.bat(推荐)、git-sync-multiv.bat(无pull)、git-sync.bat(单仓库)。
