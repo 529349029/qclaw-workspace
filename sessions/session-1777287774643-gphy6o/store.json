@@ -1,0 +1,25 @@
+{
+  "id": "session-1777287774643-gphy6o",
+  "name": "翻译与偏好",
+  "status": "active",
+  "createdAt": "2026-04-27T13:46:05.555Z",
+  "updatedAt": "2026-04-27T13:57:14.790Z",
+  "agents": [
+    {
+      "id": "agent_gqj7lx6u",
+      "name": "w3c1e6dui5lw6zik",
+      "role": "assistant",
+      "status": "idle",
+      "createdAt": "2026-04-27T13:46:05.555Z",
+      "model": "unknown",
+      "systemPrompt": ""
+    }
+  ],
+  "summary": {
+    "id": "summary_425s7lp8",
+    "title": "翻译与偏好",
+    "createdAt": "2026-04-27T13:46:05.556Z",
+    "file": "summary_425s7lp8.md"
+  },
+  "lastMessageCount": 13
+}
