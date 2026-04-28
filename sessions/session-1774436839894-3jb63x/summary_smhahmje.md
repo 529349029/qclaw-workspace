@@ -1,14 +1,14 @@
 ## 任务背景
-用户要求恢复原始git-sync-multiv.bat的pull+push双仓库行为，新建文件git-sync-both.bat运行。
+确认contracts/0x7e199fc/目录实际内容。
 ## 执行过程
-1. 创建D:\busd\git-sync-both.bat，pull和push都走代理
-2. 测试发现Gitee走代理失败（Clash仅代理GitHub流量）
-3. 修正：Gitee直连，GitHub pull+push均走代理127.0.0.1:7890
-4. 再次测试，Gitee+GitHub均推送成功
+1. 文件资源管理器查看目录结构
+2. 发现src/子目录全为空（无.sol文件）
+3. _sources.b64不存在，_decode.py从未运行
+4. 26个.sol文件从未真正解码还原
 ## 关键结果
-- Gitee(myfork3)：直连pull+push ✅
-- GitHub(origin)：代理pull+push ✅
-- 新文件D:\busd\git-sync-both.bat已创建并测试通过
-- 记录至memory/2026-04-28.md
+- _decode.py和_save_all.py脚本存在
+- debug_bscscan.html存在（633KB）
+- src/全部为空，无.sol文件
+- 根因：_sources.b64数据文件缺失
 ## 结论建议
-脚本已稳定运行。用户现有三个脚本：git-sync-both.bat(推荐)、git-sync-multiv.bat(无pull)、git-sync.bat(单仓库)。
+需重新从BSCscan获取合约源码数据才能解码。需要时可让AI协助重新抓取。

@@ -1,9 +1,9 @@
 {
   "id": "session-1774436839894-3jb63x",
-  "name": "Git双仓库同步脚本",
+  "name": "contracts目录为空",
   "status": "active",
   "createdAt": "2026-04-22T10:10:18.086Z",
-  "updatedAt": "2026-04-28T13:42:26.633Z",
+  "updatedAt": "2026-04-28T13:55:39.984Z",
   "agents": [
     {
       "id": "agent_u6fnr6t8",
@@ -17,9 +17,9 @@
   ],
   "summary": {
     "id": "summary_smhahmje",
-    "title": "Git双仓库同步脚本",
+    "title": "contracts目录为空",
     "createdAt": "2026-04-22T10:10:18.087Z",
     "file": "summary_smhahmje.md"
   },
-  "lastMessageCount": 28
+  "lastMessageCount": 31
 }
