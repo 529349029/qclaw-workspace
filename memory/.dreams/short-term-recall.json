@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-28T22:18:36.331Z",
+  "entries": {
+    "memory:memory/2026-04-19.md:1:20": {
+      "key": "memory:memory/2026-04-19.md:1:20",
+      "path": "memory/2026-04-19.md",
+      "startLine": 1,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "# 2026-04-19 日记 ## 今日主要事项 ### Chrome 绿色版安装 - 用户尝试从腾讯电脑管家安装 Chrome 失败 - 用户要求下载**绿色免安装版（Portable）** - 推荐了 GitHub 项目：https://github.com/zzp198/Google-Chrome-Portable - 最终用户选择了 Win64_147.0.7727.56 版本 - 下载链接已保存 ### 用户偏好记录 - **软件优先下载绿色版**，不安装到系统 - 避免软件管家（有捆绑） - 推荐绿色软件站和 GitHub 开源项目 ## 技术笔记 - Invoke-WebRequest 的 `-L` 参数在 PowerShell 中不支持（curl 别名问题） - Windows x64 系统用 Win64 版本",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.2564518184074575,
+      "maxScore": 0.2564518184074575,
+      "firstRecalledAt": "2026-04-28T22:18:36.331Z",
+      "lastRecalledAt": "2026-04-28T22:18:36.331Z",
+      "queryHashes": [
+        "73858671e291"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "win64-147.0.7727.56",
+        "invoke-webrequest",
+        "日记",
+        "今日",
+        "主要",
+        "事项",
+        "chrome",
+        "绿色"
+      ]
+    },
+    "memory:memory/2026-04-15.md:28:46": {
+      "key": "memory:memory/2026-04-15.md:28:46",
+      "path": "memory/2026-04-15.md",
+      "startLine": 28,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "### 分析结论 - 综合评分：8.28/10 - 当前 PE-TTM ~28x，处于历史中偏高；PE（2024）约 21x - DCF 内在价值约 ¥2,041/股，当前价格有约 30% 安全边际（保守假设） - 护城河极深（地理+品牌+时间+定价权），ROE >35%，几乎零有息负债 - 短期性价比一般，中长期仍是核心资产 - 买入区间建议 PE < 25x（对应股价 < ¥1,300） ### buffett-analysis 技能说明 - 脚本路径：`C:\\Users\\Administrator\\.qclaw\\workspace\\skills\\buffett-analysis\\scripts\\fetch_company_data.py` - 依赖 mcporter（MCP 工具调用），无法直接运行（mcporter 工具不可用） - 数据采集改用 curl 直接调用东方财富网 API 绕过 - 阿尔法工坊前端：`https://finstep-ai.github.io/alpha-factor-lab/fundamental.html` - 写入 JSON 文件：`alpha-factor-lab/fundamental-reports.json` ### 14:48 - 通知错误排查 - cron 定时家务提醒触发成功，但微信推送渠道认证出现异常，已排查确认是通知渠道问题，非用户侧问题",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.16342014766056323,
+      "maxScore": 0.16342014766056323,
+      "firstRecalledAt": "2026-04-28T22:18:36.331Z",
+      "lastRecalledAt": "2026-04-28T22:18:36.331Z",
+      "queryHashes": [
+        "73858671e291"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "8.28/10",
+        "pe-ttm",
+        "041/股",
+        "buffett-analysis",
+        "fetch-company-data.py",
+        "分析",
+        "结论",
+        "综合"
+      ]
+    }
+  }
+}
