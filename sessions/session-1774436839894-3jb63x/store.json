@@ -1,9 +1,9 @@
 {
   "id": "session-1774436839894-3jb63x",
-  "name": "WSL推送方案确认",
+  "name": "记住文件保护习惯",
   "status": "active",
   "createdAt": "2026-04-22T10:10:18.086Z",
-  "updatedAt": "2026-04-28T22:38:38.856Z",
+  "updatedAt": "2026-04-28T23:04:06.780Z",
   "agents": [
     {
       "id": "agent_u6fnr6t8",
@@ -17,9 +17,9 @@
   ],
   "summary": {
     "id": "summary_smhahmje",
-    "title": "WSL推送方案确认",
+    "title": "记住文件保护习惯",
     "createdAt": "2026-04-22T10:10:18.087Z",
     "file": "summary_smhahmje.md"
   },
-  "lastMessageCount": 37
+  "lastMessageCount": 41
 }
