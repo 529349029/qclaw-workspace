@@ -53,7 +53,8 @@
 - 阿尔法工坊前端：https://finstep-ai.github.io/alpha-factor-lab/fundamental.html
 - PowerShell 中 Invoke-WebRequest 的 -L 参数不受支持（curl 别名问题），如需处理重定向建议直接使用 curl.exe
 - GitHub Push Protection 规则：chat-export/、对话导出、Personal Access Token 等含敏感信息的内容永远不应提交到 git；.gitignore 只能排除未跟踪文件，已跟踪文件需先 git rm --cached
-- 用户说"推送一下"= 同时推送三个仓库：QClaw 工作区（GitHub）、D:\busd（Gitee + GitHub）、D:\usdt（Gitee）
+- 用户说"推送一下"= 同时推送三个仓库：QClaw 工作区（GitHub）、D:\busd（Gitee + GitHub，用 git-sync-both.bat 脚本）、D:\usdt（Gitee）
+- 用户明确要求：永远不要直接修改用户的原文件；修改前必须先复制一份（.original 或 .bak 后缀），在复制份上操作，原文件保持不动
 
 ## 用户身份与偏好
 
