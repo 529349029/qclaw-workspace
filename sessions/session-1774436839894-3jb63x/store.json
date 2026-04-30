@@ -1,9 +1,9 @@
 {
   "id": "session-1774436839894-3jb63x",
-  "name": "Clash监听地址问题",
+  "name": "WSL代理+脚本偏好",
   "status": "active",
   "createdAt": "2026-04-22T10:10:18.086Z",
-  "updatedAt": "2026-04-29T11:53:36.422Z",
+  "updatedAt": "2026-04-29T13:13:05.445Z",
   "agents": [
     {
       "id": "agent_u6fnr6t8",
@@ -17,9 +17,9 @@
   ],
   "summary": {
     "id": "summary_smhahmje",
-    "title": "Clash监听地址问题",
+    "title": "WSL代理+脚本偏好",
     "createdAt": "2026-04-22T10:10:18.087Z",
     "file": "summary_smhahmje.md"
   },
-  "lastMessageCount": 51
+  "lastMessageCount": 54
 }

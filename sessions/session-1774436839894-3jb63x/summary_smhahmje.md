@@ -1,12 +1,12 @@
 ## 任务背景
-WSL连接Windows Clash代理（192.168.3.20:7890）仍然失败，深入排查根因。
+WSL镜像模式下Clash代理配置完成，用户要求后续脚本优先用Node.js。
 ## 执行过程
-1. netstat发现Clash Meta进程(PID 9476)只监听127.0.0.1:7890，未监听0.0.0.0
-2. config.yaml虽有bind-address: "0.0.0.0"，但进程未重启未生效
-3. 之前修复的EdgeTraversalPolicy是防火墙侧，根本问题是进程监听地址
+1. 确认WSL镜像模式用127.0.0.1访问代理
+2. curl测试代理连通成功
+3. 更新MEMORY.md记录脚本偏好
 ## 关键结果
-- 根因：进程绑定127.0.0.1非0.0.0.0，WSL无法访问
-- 解决方法：重启Clash Meta进程让其重新加载config.yaml
-- 记录至memory/2026-04-29.md
+- WSL代理127.0.0.1:7890连通 ✅
+- WSL可直接推GitHub无需复制文件 ✅
+- MEMORY.md已更新：优先Node.js脚本
 ## 结论建议
-config.yaml修改后必须重启Clash进程才能生效。WSL访问Clash代理需确认进程监听0.0.0.0而非仅127.0.0.1。
+后续写脚本优先用Node.js，确保用户能看懂节省时间。
