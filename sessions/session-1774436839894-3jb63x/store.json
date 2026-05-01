@@ -1,9 +1,9 @@
 {
   "id": "session-1774436839894-3jb63x",
-  "name": "WSL代理+脚本偏好",
+  "name": "Foundry安装失败",
   "status": "active",
   "createdAt": "2026-04-22T10:10:18.086Z",
-  "updatedAt": "2026-04-29T13:13:05.445Z",
+  "updatedAt": "2026-05-01T12:36:12.581Z",
   "agents": [
     {
       "id": "agent_u6fnr6t8",
@@ -17,9 +17,9 @@
   ],
   "summary": {
     "id": "summary_smhahmje",
-    "title": "WSL代理+脚本偏好",
+    "title": "Foundry安装失败",
     "createdAt": "2026-04-22T10:10:18.087Z",
     "file": "summary_smhahmje.md"
   },
-  "lastMessageCount": 54
+  "lastMessageCount": 29
 }

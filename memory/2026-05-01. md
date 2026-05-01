@@ -1,0 +1,17 @@
+﻿# 2026-05-01 Daily Log
+
+## 会话摘要
+- **会话压缩时间**：19:13 CST + 20:34 CST
+- Foundry 安装尝试：全部失败（GitHub release 下载被阻断）
+- 用户目标：Foundry + Solidity + Code4rena 历史漏洞复现
+- Git 推送：QClaw/D:\\busd/D:\\usdt 三仓库
+
+## Foundry 安装失败
+- 直接下载：仅 9 字节响应
+- ghproxy 镜像：连接超时
+- 代理 curl.exe -L：仅 14 字节（返回 404）
+- 根因：GitHub 大文件下载被阻断
+
+## 每日英语
+- 晚间场景→银行货币兑换：I'd like to exchange some foreign currency, please. What's today's rate?
+- 晨间场景→机场登机口询问：Could you tell me which gate my flight is boarding from?
