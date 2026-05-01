@@ -1,9 +1,9 @@
 {
   "id": "session-1774436839894-3jb63x",
-  "name": "Foundry安装失败",
+  "name": "GitHub推送失败",
   "status": "active",
   "createdAt": "2026-04-22T10:10:18.086Z",
-  "updatedAt": "2026-05-01T12:36:12.581Z",
+  "updatedAt": "2026-05-01T13:19:05.273Z",
   "agents": [
     {
       "id": "agent_u6fnr6t8",
@@ -17,9 +17,9 @@
   ],
   "summary": {
     "id": "summary_smhahmje",
-    "title": "Foundry安装失败",
+    "title": "GitHub推送失败",
     "createdAt": "2026-04-22T10:10:18.087Z",
     "file": "summary_smhahmje.md"
   },
-  "lastMessageCount": 29
+  "lastMessageCount": 25
 }
