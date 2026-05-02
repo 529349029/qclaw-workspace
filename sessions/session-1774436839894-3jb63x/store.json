@@ -1,9 +1,9 @@
 {
   "id": "session-1774436839894-3jb63x",
-  "name": "推送结果+脚本位置",
+  "name": "放弃simple-git重构",
   "status": "active",
   "createdAt": "2026-04-22T10:10:18.086Z",
-  "updatedAt": "2026-05-02T10:09:52.772Z",
+  "updatedAt": "2026-05-02T11:03:52.708Z",
   "agents": [
     {
       "id": "agent_u6fnr6t8",
@@ -17,9 +17,9 @@
   ],
   "summary": {
     "id": "summary_smhahmje",
-    "title": "推送结果+脚本位置",
+    "title": "放弃simple-git重构",
     "createdAt": "2026-04-22T10:10:18.087Z",
     "file": "summary_smhahmje.md"
   },
-  "lastMessageCount": 34
+  "lastMessageCount": 36
 }
