@@ -1,9 +1,9 @@
 {
   "id": "session-1774436839894-3jb63x",
-  "name": "GitHub推送失败",
+  "name": "推送结果+脚本位置",
   "status": "active",
   "createdAt": "2026-04-22T10:10:18.086Z",
-  "updatedAt": "2026-05-01T13:19:05.273Z",
+  "updatedAt": "2026-05-02T10:09:52.772Z",
   "agents": [
     {
       "id": "agent_u6fnr6t8",
@@ -17,9 +17,9 @@
   ],
   "summary": {
     "id": "summary_smhahmje",
-    "title": "GitHub推送失败",
+    "title": "推送结果+脚本位置",
     "createdAt": "2026-04-22T10:10:18.087Z",
     "file": "summary_smhahmje.md"
   },
-  "lastMessageCount": 25
+  "lastMessageCount": 34
 }

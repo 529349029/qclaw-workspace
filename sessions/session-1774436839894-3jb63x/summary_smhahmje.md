@@ -1,19 +1,14 @@
 ## 任务背景
-用户要求推送代码到GitHub，但遇到严重的网络问题导致全部失败。
+用户要求推送三个仓库，并提出了脚本创建位置的新偏好。
 ## 执行过程
-1. QClaw工作区新增memory/2026-05-01.md和check_port.sh需提交
-2. D:\usdt已成功推送到Gitee temp-branch
-3. GitHub推送尝试多种SSL后端和代理配置均失败：
-   - openssl后端+代理：unexpected eof
-   - schannel后端+代理：connection reset
-   - 直连：failed to receive handshake
-4. 发现git-sync-multi2.bat引用不存在的remote "myfork3"
-5. memory文件名意外插入空格导致git add失败
-6. 任务因步骤过多自动中止
+1. 三仓库推送：QClaw→GitHub✅，D:\busd→Gitee+GitHub✅，D:\usdt→Gitee❌(TLS eof)
+2. GitHub直连恢复（之前走代理失败）
+3. 用户要求脚本只在工作空间创建
+4. 更新MEMORY.md和memory/2026-05-02.md
 ## 关键结果
-- GitHub HTTPS完全不通（TLS握手失败）
-- Gitee直连可作为替代方案
-- Foundry安装也因GitHub下载被阻断失败
-- memory/2026-05-01.md已更新（含GitHub网络问题记录）
+- 三仓库推送2成功1失败
+- **新偏好**：脚本只创建在C:\Users\Administrator\.qclaw\workspace\下，不放用户目录
+- GitHub直连可用，代理可能挂了
+- PowerShell中&&不可靠，用;顺序执行
 ## 结论建议
-等待网络恢复后重试GitHub备份，临时可用Gitee替代。需修复git-sync-multi2.bat中的remote配置。
+两条原则已确立：1)不直接修改用户原文件 2)脚本只在工作空间创建。D:\usdt Gitee TLS问题待解决。
