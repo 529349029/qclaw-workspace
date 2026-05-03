@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-28T22:18:36.331Z",
+  "updatedAt": "2026-05-02T19:09:21.646Z",
   "entries": {
     "memory:memory/2026-04-19.md:1:20": {
       "key": "memory:memory/2026-04-19.md:1:20",
@@ -60,6 +60,36 @@
         "分析",
         "结论",
         "综合"
+      ]
+    },
+    "memory:memory/2026-04-26.md:1:24": {
+      "key": "memory:memory/2026-04-26.md:1:24",
+      "path": "memory/2026-04-26.md",
+      "startLine": 1,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "# Memory: 2026-04-26 ## Git 推送修复（17:29） ### 问题 QClaw 工作区自动备份推送到 GitHub 时，被 GitHub Push Protection 拦截。 原因：`chat-export/` 目录中包含 GitHub Personal Access Token，被安全扫描检测到。 ### 解决过程 1. 将 `chat-export/` 从 git 跟踪中删除（`git rm -r --cached`） 2. 追加 `chat-export/`、`export_chat.py`、`task-summary*.md` 等到 `.gitignore` 3. `git reset --soft c68a71b`（回退到上一个干净 commit，保留工作区） 4. 只提交安全文件（`.gitignore`、`memory/`、`sessions/`） 5. `git push --force` 强制推送成功（`c68a71b..a703b7f`） ### 其他仓库推送 - `D:\\busd` → Gitee + GitHub，commit `9161c97` ✅ - `D:\\usdt` → Gitee temp-branch，commit `877c02c` ✅ ### 教训 - `chat-export/` 是对话导出目录，可能含 token/密钥，永远不应提交到 git - 已通过 `.gitignore` 永久排除 - 每日自动备份 cron 任务 ID：`2d032b85-c7c1-446c-a7e9-66dc3b4e4",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.7754215281140456,
+      "maxScore": 0.7754215281140456,
+      "firstRecalledAt": "2026-05-02T19:09:21.646Z",
+      "lastRecalledAt": "2026-05-02T19:09:21.646Z",
+      "queryHashes": [
+        "16ffdaf531d3"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "备份",
+        "chat-export",
+        "export-chat.py",
+        "task-summary",
+        "temp-branch",
+        "token/密钥",
+        "git",
+        "推送"
       ]
     }
   }
