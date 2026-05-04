@@ -1,9 +1,9 @@
 {
   "id": "session-1774436839894-3jb63x",
-  "name": "放弃simple-git重构",
+  "name": "修复右键菜单%1参数",
   "status": "active",
   "createdAt": "2026-04-22T10:10:18.086Z",
-  "updatedAt": "2026-05-02T19:09:32.365Z",
+  "updatedAt": "2026-05-04T12:59:06.601Z",
   "agents": [
     {
       "id": "agent_u6fnr6t8",
@@ -17,9 +17,9 @@
   ],
   "summary": {
     "id": "summary_smhahmje",
-    "title": "放弃simple-git重构",
+    "title": "修复右键菜单%1参数",
     "createdAt": "2026-04-22T10:10:18.087Z",
     "file": "summary_smhahmje.md"
   },
-  "lastMessageCount": 32
+  "lastMessageCount": 60
 }

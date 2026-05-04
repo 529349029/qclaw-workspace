@@ -1,15 +1,15 @@
 ## 任务背景
-用户建议用simple-git重构git-sync-all.js，但重构过程耗时较长，最终决定放弃。
+Notepad++和CudaText右键菜单注册成功但打开文件报错，用户反馈问题。
 ## 执行过程
-1. 用户建议用simple-git替代child_process
-2. 安装simple-git并开始重构
-3. 重构耗时较长未完成
-4. 用户决定放弃，继续用原spawn方案
-5. simple-git用户已全局安装但未链接到脚本目录
+1. 用reg add注册右键菜单（文件+目录背景）
+2. 用户报错：右键打开文件失败
+3. 排查发现注册表存的是`%%1`而非`%1`
+4. 修复：reg add直接命令行中`%%1`被原样存入注册表，应该是`%1`
 ## 关键结果
-- 最终方案：Node.js + spawn（原方案）
-- 脚本路径：C:\Users\Administrator\.qclaw\workspace\scripts\git-sync-all.js
-- 三仓库推送已正常工作 ✅
-- 任务总结写入2026-05-02_git-sync-task_19-02.md
+- 注册表值已修复：`%%1`→`%1` ✅
+- Notepad++和CudaText右键菜单可正常打开文件
+- 安装位置：C:\Users\Administrator\Portable\下
+- 关键教训：reg add直接命令行写`%1`，.bat脚本里才写`%%1`
+- memory/2026-05-04.md和task-summary已更新
 ## 结论建议
-原方案已跑通不折腾simple-git。以后如需改进再考虑。用户偏好：能用就行，不过度优化。
+右键菜单功能正常。以后用reg add直接命令行注册时参数用`%1`，不要用`%%1`转义。
