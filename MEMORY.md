@@ -42,6 +42,8 @@
 | Anchor CLI | 1.0.1 | `$env:USERPROFILE\.cargo\bin\` |
 | avm | 跳过 | 旧包编译需 OpenSSL 1.x，固定版本不需要 |
 | VS Build Tools | 14.44 | `C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\` |
+- | Notepad++ | v8.9.4 | `C:\Users\Administrator\Portable\Notepad++\` |
+- | CudaText | v1.234.2.0 | `C:\Users\Administrator\Portable\CudaText\` |
 
 ## 经验与决策
 
